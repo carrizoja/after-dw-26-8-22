@@ -1,0 +1,33 @@
+/* Imported Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500&display=swap');
+
+/* Variables */
+
+$advert: 'Advent Pro',
+sans-serif;
+
+/* General rules for CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $advert;
+}
+
+.mainContainer {
+    background-image: linear-gradient(to left, #333333, black);
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}

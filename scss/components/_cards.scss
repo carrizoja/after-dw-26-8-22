@@ -1,0 +1,22 @@
+// Variables
+$marginCards: 20px;
+$imageSize: 150px;
+//CSS for Cards
+.cardsGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: $marginCards;
+    margin-bottom: $marginCards;
+}
+
+.card {
+    margin-top: $marginCards;
+}
+
+section {
+    img {
+        width: $imageSize;
+        height: $imageSize;
+    }
+}
